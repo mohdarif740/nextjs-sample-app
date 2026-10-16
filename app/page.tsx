@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import screenshot from '../public/Screenshot.png';
-import { SessionProvider } from 'next-auth/react';
+// import screenshot from '../public/Screenshot.png';
+// import { SessionProvider } from 'next-auth/react';
 export default function Home() {
   return (
     <>
-      <SessionProvider>
+      {/* <SessionProvider> */}
         <div>
-          <h1>Authentication</h1>
+          <h1>Home</h1>
           {/* <Image
           src={screenshot}
           width={'100'}
@@ -14,7 +14,7 @@ export default function Home() {
           alt={'screen shot image'}
         /> */}
         </div>
-      </SessionProvider>
+      {/* </SessionProvider> */}
     </>
   );
 }
